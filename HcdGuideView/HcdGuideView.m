@@ -176,6 +176,7 @@
  */
 - (void)nextButtonHandler:(id)sender {
     
+    self.images = nil;
     [self.pageControl removeFromSuperview];
     [self.view removeFromSuperview];
     [self setWindow:nil];
